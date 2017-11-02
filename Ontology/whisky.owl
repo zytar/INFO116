@@ -534,7 +534,10 @@
         <rdf:type rdf:resource="http://www.whisky.com/whisky#WhiskySingleMalt"/>
         <countryOfOrigin rdf:resource="http://www.whisky.com/whisky#Scotland"/>
         <distilledBy rdf:resource="http://www.whisky.com/whisky#Balvenie"/>
+        <finishNote rdf:resource="http://www.whisky.com/whisky#Malt"/>
+        <nosingNote rdf:resource="http://www.whisky.com/whisky#Sherry"/>
         <regionOfOrigin rdf:resource="http://www.whisky.com/whisky#Speyside"/>
+        <tastingNote rdf:resource="http://www.whisky.com/whisky#Sherry"/>
         <ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ABV>
         <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</age>
         <bottleSize rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</bottleSize>
@@ -571,7 +574,10 @@
         <rdf:type rdf:resource="http://www.whisky.com/whisky#WhiskySingleMalt"/>
         <countryOfOrigin rdf:resource="http://www.whisky.com/whisky#Scotland"/>
         <distilledBy rdf:resource="http://www.whisky.com/whisky#Bunnahabhain"/>
+        <finishNote rdf:resource="http://www.whisky.com/whisky#Malt"/>
+        <nosingNote rdf:resource="http://www.whisky.com/whisky#PeatSmoke"/>
         <regionOfOrigin rdf:resource="http://www.whisky.com/whisky#Islay"/>
+        <tastingNote rdf:resource="http://www.whisky.com/whisky#Malt"/>
         <ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.3</ABV>
         <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</age>
         <bottleSize rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</bottleSize>
