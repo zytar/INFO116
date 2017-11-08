@@ -120,6 +120,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#finishCoffee -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishCoffee">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#finishMalt -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishMalt">
@@ -219,6 +227,14 @@
     <!-- http://www.whisky.com/whisky#nosingOrange -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingOrange">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingPear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingPear">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
     </owl:DatatypeProperty>
     
@@ -916,6 +932,25 @@
     <!-- http://www.whisky.com/whisky#TullamoreDEW -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#TullamoreDEW">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#WhiskyBlend"/>
+        <countryOfOrigin rdf:resource="http://www.whisky.com/whisky#Ireland"/>
+        <distilledBy rdf:resource="http://www.whisky.com/whisky#Midleton"/>
+        <ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ABV>
+        <bottleSize rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</bottleSize>
+        <finishCoffee rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</finishCoffee>
+        <finishMalt rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</finishMalt>
+        <finishSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</finishSpices>
+        <finishSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</finishSweet>
+        <nosingFruit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingFruit>
+        <nosingMalt rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</nosingMalt>
+        <nosingPear rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingPear>
+        <nosingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingVanilla>
+        <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</rating>
+        <tastingFruit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingFruit>
+        <tastingSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingSpices>
+        <tastingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingSweet>
+        <tastingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</tastingVanilla>
+        <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7186</whiskyID>
         <URL>https://www.whisky.com/whisky-database/details/tullamore-dew-5.html</URL>
     </owl:NamedIndividual>
     
