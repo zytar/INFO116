@@ -256,6 +256,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingOak -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingOak">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingOrange -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingOrange">
@@ -386,6 +394,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#tastingOil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#tastingOil">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#tastingPeatSmoke -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#tastingPeatSmoke">
@@ -501,6 +517,14 @@
     <owl:Class rdf:about="http://www.whisky.com/whisky#WhiskyBlend">
         <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#Whisky"/>
         <owl:disjointWith rdf:resource="http://www.whisky.com/whisky#WhiskySingleMalt"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.whisky.com/whisky#WhiskyBourbon -->
+
+    <owl:Class rdf:about="http://www.whisky.com/whisky#WhiskyBourbon">
+        <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#Whisky"/>
     </owl:Class>
     
 
@@ -797,6 +821,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#Kentucky -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Kentucky">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.whisky.com/whisky#Lagavulin -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Lagavulin">
@@ -838,6 +870,42 @@
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Laphroaig">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whisky.com/whisky#MakersMark -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#MakersMark">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whisky.com/whisky#MakersMarkRedSeal -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#MakersMarkRedSeal">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#WhiskyBourbon"/>
+        <countryOfOrigin rdf:resource="http://www.whisky.com/whisky#USA"/>
+        <distilledBy rdf:resource="http://www.whisky.com/whisky#MakersMark"/>
+        <regionOfOrigin rdf:resource="http://www.whisky.com/whisky#Kentucky"/>
+        <ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.0</ABV>
+        <bottleSize rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</bottleSize>
+        <finishOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</finishOak>
+        <finishOil rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</finishOil>
+        <finishSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</finishSweet>
+        <finishVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</finishVanilla>
+        <nosingHoney rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</nosingHoney>
+        <nosingOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</nosingOak>
+        <nosingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</nosingSweet>
+        <nosingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingVanilla>
+        <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</rating>
+        <tastingOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingOak>
+        <tastingOil rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</tastingOil>
+        <tastingSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingSpices>
+        <tastingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingVanilla>
+        <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1511</whiskyID>
+        <URL>https://www.whisky.com/whisky-database/details/makers-mark-red-seal.html</URL>
     </owl:NamedIndividual>
     
 
