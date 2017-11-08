@@ -99,7 +99,7 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#bottleSize">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:comment>In liters</rdfs:comment>
+        <rdfs:comment>In dl.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -108,6 +108,22 @@
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finish">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tastingNotes"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#finishBanana -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishBanana">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#finishBlackberry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishBlackberry">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
     </owl:DatatypeProperty>
     
 
@@ -152,6 +168,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#finishPepper -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishPepper">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#finishSpices -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishSpices">
@@ -184,6 +208,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingChocolate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingChocolate">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingFruit -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingFruit">
@@ -208,6 +240,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingLemon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingLemon">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingMalt -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingMalt">
@@ -227,6 +267,14 @@
     <!-- http://www.whisky.com/whisky#nosingPeatSmoke -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingPeatSmoke">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingPineapple -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingPineapple">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
     </owl:DatatypeProperty>
     
@@ -693,6 +741,22 @@
         <countryOfOrigin rdf:resource="http://www.whisky.com/whisky#USA"/>
         <distilledBy rdf:resource="http://www.whisky.com/whisky#JackDaniels"/>
         <regionOfOrigin rdf:resource="http://www.whisky.com/whisky#Tennessee"/>
+        <ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ABV>
+        <bottleSize rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</bottleSize>
+        <finishBanana rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</finishBanana>
+        <finishBlackberry rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</finishBlackberry>
+        <finishOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</finishOak>
+        <finishPepper rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</finishPepper>
+        <nosingChocolate rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingChocolate>
+        <nosingLemon rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingLemon>
+        <nosingPineapple rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingPineapple>
+        <nosingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingVanilla>
+        <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</rating>
+        <tastingFruit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</tastingFruit>
+        <tastingOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</tastingOak>
+        <tastingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</tastingSweet>
+        <tastingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingVanilla>
+        <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5062</whiskyID>
         <URL>https://www.whisky.com/whisky-database/details/jack-daniels-old-no-7-black-label.html</URL>
     </owl:NamedIndividual>
     
