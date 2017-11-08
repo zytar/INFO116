@@ -465,6 +465,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#WhiskyTennessee -->
+
+    <owl:Class rdf:about="http://www.whisky.com/whisky#WhiskyTennessee">
+        <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#Whisky"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -666,6 +674,26 @@
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Islay">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whisky.com/whisky#JackDaniels -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#JackDaniels">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whisky.com/whisky#JackDanielsNO7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#JackDanielsNO7">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#WhiskyTennessee"/>
+        <countryOfOrigin rdf:resource="http://www.whisky.com/whisky#USA"/>
+        <distilledBy rdf:resource="http://www.whisky.com/whisky#JackDaniels"/>
+        <regionOfOrigin rdf:resource="http://www.whisky.com/whisky#Tennessee"/>
+        <URL>https://www.whisky.com/whisky-database/details/jack-daniels-old-no-7-black-label.html</URL>
     </owl:NamedIndividual>
     
 
@@ -913,10 +941,26 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#Tennessee -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Tennessee">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.whisky.com/whisky#TullamoreDEW -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#TullamoreDEW">
         <URL>https://www.whisky.com/whisky-database/details/tullamore-dew-5.html</URL>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.whisky.com/whisky#USA -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#USA">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
     
 
