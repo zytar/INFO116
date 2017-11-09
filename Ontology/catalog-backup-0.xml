@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+<<<<<<< HEAD
+        <uri id="Automatically generated entry, Timestamp=1510151992570" name="http://www.whisky.com/whisky" uri="whisky.owl"/>
+=======
+        <uri id="Automatically generated entry, Timestamp=1510150798072" name="http://www.whisky.com/whisky" uri="whisky.owl"/>
+>>>>>>> 9c666e40a36a5834101a4234e4b048fe4949f2e0
+    </group>
+</catalog>
