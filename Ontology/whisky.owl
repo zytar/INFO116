@@ -805,6 +805,7 @@
         <rdf:type rdf:resource="http://www.whisky.com/whisky#WhiskyTennessee"/>
         <countryOfOrigin rdf:resource="http://www.whisky.com/whisky#USA"/>
         <distilledBy rdf:resource="http://www.whisky.com/whisky#JackDaniels"/>
+        <hasMaturing rdf:resource="http://www.whisky.com/whisky#Virgin"/>
         <regionOfOrigin rdf:resource="http://www.whisky.com/whisky#Tennessee"/>
         <ABV rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</ABV>
         <bottleSize rdf:datatype="http://www.w3.org/2001/XMLSchema#float">10.0</bottleSize>
@@ -1150,6 +1151,14 @@
     <!-- http://www.whisky.com/whisky#Vanilla -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Vanilla"/>
+    
+
+
+    <!-- http://www.whisky.com/whisky#Virgin -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Virgin">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#Maturing"/>
+    </owl:NamedIndividual>
     
 
 
