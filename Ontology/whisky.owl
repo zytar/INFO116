@@ -609,18 +609,6 @@
     
 
 
-    <!-- http://www.whisky.com/whisky#Alcohol -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Alcohol"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Apple -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Apple"/>
-    
-
-
     <!-- http://www.whisky.com/whisky#Ardbeg -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Ardbeg">
@@ -715,12 +703,6 @@
     
 
 
-    <!-- http://www.whisky.com/whisky#Chili -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Chili"/>
-    
-
-
     <!-- http://www.whisky.com/whisky#Dalwhinnie -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Dalwhinnie">
@@ -729,23 +711,11 @@
     
 
 
-    <!-- http://www.whisky.com/whisky#Fruit -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Fruit"/>
-    
-
-
     <!-- http://www.whisky.com/whisky#Glenmorangie -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Glenmorangie">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Heather -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Heather"/>
     
 
 
@@ -762,18 +732,6 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Highlands">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Honey -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Honey"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Iodine -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Iodine"/>
     
 
 
@@ -965,18 +923,6 @@
     
 
 
-    <!-- http://www.whisky.com/whisky#Malt -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Malt"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#MedicinalSmoke -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#MedicinalSmoke"/>
-    
-
-
     <!-- http://www.whisky.com/whisky#Midleton -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Midleton">
@@ -1028,53 +974,11 @@
     
 
 
-    <!-- http://www.whisky.com/whisky#Nuts -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Nuts"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Oak -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Oak"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Orange -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Orange"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#PeatSmoke -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#PeatSmoke"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Pepper -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Pepper"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Salt -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Salt"/>
-    
-
-
     <!-- http://www.whisky.com/whisky#Scotland -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Scotland">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Seaweed -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Seaweed"/>
     
 
 
@@ -1092,18 +996,6 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Speyside">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Spices -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Spices"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Sweet -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Sweet"/>
     
 
 
@@ -1155,12 +1047,6 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#USA">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Vanilla -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Vanilla"/>
     
 
 
