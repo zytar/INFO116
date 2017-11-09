@@ -120,6 +120,7 @@
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#bottleSize">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>In dl.</rdfs:comment>
     </owl:DatatypeProperty>
@@ -371,6 +372,14 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#rating">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:comment>Range from 1-5</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#ratingCount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#ratingCount">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#rating"/>
     </owl:DatatypeProperty>
     
 
@@ -646,6 +655,7 @@
         <nosingSherry rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingSherry>
         <nosingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingVanilla>
         <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</rating>
+        <ratingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">619</ratingCount>
         <tastingNuts rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</tastingNuts>
         <tastingOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingOak>
         <tastingSherry rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingSherry>
@@ -693,6 +703,7 @@
         <nosingPeatSmoke rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingPeatSmoke>
         <nosingSherry rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingSherry>
         <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</rating>
+        <ratingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">375</ratingCount>
         <tastingFruit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingFruit>
         <tastingMalt rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingMalt>
         <tastingPeatSmoke rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</tastingPeatSmoke>
@@ -813,6 +824,7 @@
         <nosingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingSweet>
         <nosingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingVanilla>
         <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</rating>
+        <ratingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">154</ratingCount>
         <tastingFruit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</tastingFruit>
         <tastingSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingSpices>
         <tastingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingSweet>
@@ -868,6 +880,7 @@
         <nosingSeaweed rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</nosingSeaweed>
         <nosingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.5</nosingSweet>
         <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</rating>
+        <ratingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">841</ratingCount>
         <tastingPeatSmoke rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingPeatSmoke>
         <tastingSalt rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</tastingSalt>
         <tastingSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</tastingSpices>
@@ -913,6 +926,7 @@
         <nosingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.5</nosingSweet>
         <nosingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</nosingVanilla>
         <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.2</rating>
+        <ratingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">228</ratingCount>
         <tastingOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingOak>
         <tastingOil rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</tastingOil>
         <tastingSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingSpices>
@@ -964,6 +978,7 @@
         <nosingOrange rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</nosingOrange>
         <nosingSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingSpices>
         <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</rating>
+        <ratingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">111</ratingCount>
         <tastingFruit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</tastingFruit>
         <tastingHoney rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</tastingHoney>
         <tastingOak rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingOak>
@@ -1086,6 +1101,7 @@
         <nosingPear rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingPear>
         <nosingVanilla rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</nosingVanilla>
         <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.4</rating>
+        <ratingCount rdf:datatype="http://www.w3.org/2001/XMLSchema#int">76</ratingCount>
         <tastingFruit rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</tastingFruit>
         <tastingSpices rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingSpices>
         <tastingSweet rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</tastingSweet>
