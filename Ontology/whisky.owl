@@ -8,8 +8,8 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://www.whisky.com/whisky">
-        <rdfs:comment>A ontology for describing different whiskies. Hello.</rdfs:comment>
         <rdfs:label>whisky</rdfs:label>
+        <rdfs:comment>A ontology for describing different whiskies.</rdfs:comment>
     </owl:Ontology>
     
 
