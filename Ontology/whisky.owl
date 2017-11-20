@@ -207,6 +207,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#finishSherry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishSherry">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#finishSpices -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishSpices">
@@ -989,53 +997,11 @@
     
 
 
-    <!-- http://www.whisky.com/whisky#Nuts -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Nuts"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Oak -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Oak"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Orange -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Orange"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#PeatSmoke -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#PeatSmoke"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Pepper -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Pepper"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Salt -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Salt"/>
-    
-
-
     <!-- http://www.whisky.com/whisky#Scotland -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Scotland">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Seaweed -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Seaweed"/>
     
 
 
@@ -1053,18 +1019,6 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Speyside">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Spices -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Spices"/>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Sweet -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Sweet"/>
     
 
 
@@ -1117,12 +1071,6 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#USA">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.whisky.com/whisky#Vanilla -->
-
-    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Vanilla"/>
     
 
 
