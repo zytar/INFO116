@@ -260,6 +260,15 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingCaramel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingCaramel">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingChocolate -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingChocolate">
