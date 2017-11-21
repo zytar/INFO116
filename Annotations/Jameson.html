@@ -92,7 +92,8 @@
 
 </head>
 
-<body class="layout-6" prefix="wh: http://www.whisky.com/whisky#" vocab="http://www.schema.org/">
+<body class="layout-6" data-gr-c-s-loaded="true" style="" resource="Whisky" prefix="wh:http://www.whisky.com/whisky#" vocab="http://www.schema.org/"
+    typeOf="WhiskySingleMalt">
 
     <div id="banners-top" class="banners">
         <div class="container-fluid">
@@ -417,8 +418,8 @@
                                             <div class="column-inner">
                                                 <div class="details_metadata">
                                                     <h1>
-                                                        <span class="flaschenIdentifier">
-                                                            <span class="marke"> Jameson </span>
+                                                        <span class="flaschenIdentifier" property="name">
+                                                            <span class="marke" property="wh:destilledBy"> Jameson </span>
                                                             <span class="alterEtikett"> </span>
                                                             <span class="brenndatum"> </span>
                                                             <span class="namenszusatz"> </span>
@@ -592,9 +593,7 @@
                                                                         <label>
                                                                             Whisky-ID:
                                                                         </label>
-                                                                        <span class="value">
-                                                                            2072
-                                                                        </span>
+                                                                        <span class="value" property="wh:whiskyID">2072</span>
                                                                     </td>
                                                                 </tr>
 
@@ -621,7 +620,7 @@
                                                                         <span class="value">
 
 
-                                                                            <a typeOf = "wh:Region" title="Ireland" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bland%5D=5">Ireland</a>
+                                                                            <a typeOf="wh:Region" title="Ireland" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bland%5D=5">Ireland</a>
 
 
 
@@ -662,9 +661,9 @@
                                                                         <label>
                                                                             ABV:
                                                                         </label>
-                                                                        
-                                                                            <span class="value" property="wh:ABV">40%</span>
-                                                                        
+
+                                                                        <span class="value" property="wh:ABV">40</span>%
+
                                                                     </td>
                                                                 </tr>
 
@@ -675,9 +674,7 @@
                                                                         <label>
                                                                             Bottle size:
                                                                         </label>
-                                                                        <span class="value">
-                                                                            0.7 l
-                                                                        </span>
+                                                                        <span class="value" property="wh:bottleSize">0.7 </span>l
                                                                     </td>
                                                                 </tr>
 
@@ -863,6 +860,7 @@
 
 
                                                                             <!-- Rating: 1.7857 -->
+                                                                            <span id="rating" property="wh:nosingVanilla">4.4643</span>
                                                                             <!-- Rating Global: 4.4643 -->
 
 
@@ -891,6 +889,7 @@
 
 
                                                                             <!-- Rating: 1.3095 -->
+                                                                            <span id="rating" property="wh:nosingSweet">5.0000</span>
                                                                             <!-- Rating Global: 5 -->
 
 
@@ -919,6 +918,7 @@
 
 
                                                                             <!-- Rating: 0.7143 -->
+                                                                            <span id="rating" property="wh:nosingSpices">1.5385</span>
                                                                             <!-- Rating Global: 1.5385 -->
 
 
@@ -947,6 +947,7 @@
 
 
                                                                             <!-- Rating: 0.5952 -->
+                                                                            <span id="rating" property="wh:nosingMalt">1.86</span>
                                                                             <!-- Rating Global: 1.86 -->
 
 
@@ -975,6 +976,7 @@
 
 
                                                                             <!-- Rating: 0.5952 -->
+                                                                            <span id="rating" property="wh:nosingOak">2.4179</span>
                                                                             <!-- Rating Global: 2.4179 -->
 
 
@@ -1003,6 +1005,7 @@
 
 
                                                                             <!-- Rating: 0.5952 -->
+                                                                            <span id="rating" property="wh:nosingAlcohol">2.48</span>
                                                                             <!-- Rating Global: 2.48 -->
 
 
@@ -1031,6 +1034,7 @@
 
 
                                                                             <!-- Rating: 0.4762 -->
+                                                                            <span id="rating" property="wh:nosingFruit">1.6972</span>
                                                                             <!-- Rating Global: 1.6972 -->
 
 
@@ -1059,6 +1063,7 @@
 
 
                                                                             <!-- Rating: 0.4762 -->
+                                                                            <span id="rating" property="wh:nosingOil">3.2145</span>
                                                                             <!-- Rating Global: 3.2145 -->
 
 
@@ -1087,6 +1092,7 @@
 
 
                                                                             <!-- Rating: 0.3571 -->
+                                                                            <span id="rating" property="wh:nosingSherry">1.0445</span>
                                                                             <!-- Rating Global: 1.0445 -->
 
 
@@ -1115,6 +1121,7 @@
 
 
                                                                             <!-- Rating: 0.3571 -->
+                                                                            <span id="rating" property="wh:nosingApple">0.9523</span>
                                                                             <!-- Rating Global: 0.9523 -->
 
 
@@ -1143,6 +1150,7 @@
 
 
                                                                             <!-- Rating: 0.3571 -->
+                                                                            <span id="rating" property="wh:nosingHoney">2.6943</span>
                                                                             <!-- Rating Global: 2.6943 -->
 
 
@@ -1171,6 +1179,7 @@
 
 
                                                                             <!-- Rating: 0.2381 -->
+                                                                            <span id="rating" property="wh:nosingGrass">5.0000</span>
                                                                             <!-- Rating Global: 5 -->
 
 
@@ -1199,6 +1208,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingBerries">1.686</span>
                                                                             <!-- Rating Global: 1.686 -->
 
 
@@ -1227,6 +1237,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingPineapple">0.4958</span>
                                                                             <!-- Rating Global: 0.4958 -->
 
 
@@ -1255,6 +1266,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingGrape">1.2296</span>
                                                                             <!-- Rating Global: 1.2296 -->
 
 
@@ -1283,6 +1295,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingGreenapple">0.9123</span>
                                                                             <!-- Rating Global: 0.9123 -->
 
 
@@ -1311,6 +1324,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingCoconut">0.6545</span>
                                                                             <!-- Rating Global: 0.6545 -->
 
 
@@ -1339,6 +1353,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingLime">0.357</span>
                                                                             <!-- Rating Global: 0.357 -->
 
 
@@ -1367,6 +1382,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingCaramel">0.187</span>
                                                                             <!-- Rating Global: 0.187 -->
 
 
@@ -1395,6 +1411,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingPear">0.3689</span>
                                                                             <!-- Rating Global: 0.3689 -->
 
 
@@ -1423,6 +1440,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingPeach">0.816</span>
                                                                             <!-- Rating Global: 0.816 -->
 
 
@@ -1451,6 +1469,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingGrapefruit">1.3684</span>
                                                                             <!-- Rating Global: 1.3684 -->
 
 
@@ -1479,6 +1498,7 @@
 
 
                                                                             <!-- Rating: 0.119 -->
+                                                                            <span id="rating" property="wh:nosingCinnamon">0.51</span>
                                                                             <!-- Rating Global: 0.51 -->
 
 
@@ -1527,6 +1547,7 @@
 
 
                                                                             <!-- Rating: 1.4286 -->
+                                                                            <span id="rating" property="wh:tastingSweet">4.508</span>
                                                                             <!-- Rating Global: 4.508 -->
 
 
@@ -1555,6 +1576,7 @@
 
 
                                                                             <!-- Rating: 1.0714 -->
+                                                                            <span id="rating" property="wh:tastingSpices">2.9999</span>
                                                                             <!-- Rating Global: 2.9999 -->
 
 
@@ -1583,6 +1605,7 @@
 
 
                                                                             <!-- Rating: 0.9524 -->
+                                                                            <span id="rating" property="wh:tastingVanilla">2.684</span>
                                                                             <!-- Rating Global: 2.684 -->
 
 
@@ -1611,6 +1634,7 @@
 
 
                                                                             <!-- Rating: 0.7143 -->
+                                                                            <span id="rating" property="wh:tastingFruit">2.0996</span>
                                                                             <!-- Rating Global: 2.0996 -->
 
 
@@ -1639,6 +1663,7 @@
 
 
                                                                             <!-- Rating: 0.4762 -->
+                                                                            <span id="rating" property="wh:tastingOak">2.4577</span>
                                                                             <!-- Rating Global: 2.4577 -->
 
 
@@ -1667,6 +1692,7 @@
 
 
                                                                             <!-- Rating: 0.3571 -->
+                                                                            <span id="rating" property="wh:tastingMalt">0.7477</span>
                                                                             <!-- Rating Global: 0.7477 -->
 
 
@@ -1695,6 +1721,7 @@
 
 
                                                                             <!-- Rating: 0.3571 -->
+                                                                            <span id="rating" property="wh:tastingOil">2.165</span>
                                                                             <!-- Rating Global: 2.165 -->
 
 
