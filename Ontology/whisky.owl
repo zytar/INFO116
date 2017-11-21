@@ -260,6 +260,33 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingAlcohol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingAlcohol">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingApple -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingApple">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingBerries -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingBerries">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingCaramel -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingCaramel">
@@ -278,9 +305,62 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingCinnamon -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingCinnamon">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingCoconut -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingCoconut">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingFruit -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingFruit">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingGrape -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingGrape">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingGrapefruit -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingGrapefruit">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingGrass -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingGrass">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingGreenapple -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingGreenapple">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
@@ -314,6 +394,15 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingLime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingLime">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingMalt -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingMalt">
@@ -332,9 +421,27 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#nosingOil -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingOil">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.whisky.com/whisky#nosingOrange -->
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingOrange">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#nosingPeach -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingPeach">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
@@ -434,6 +541,15 @@
 
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#tasting">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tastingNotes"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.whisky.com/whisky#tastingAlcohol -->
+
+    <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#tastingAlcohol">
+        <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
     
 
