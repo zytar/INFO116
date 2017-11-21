@@ -92,7 +92,8 @@
 
 </head>
 
-<body class="layout-6" prefix="wh: http://www.whisky.com/whisky#" vocab="http://www.schema.org/">
+<body class="layout-6" data-gr-c-s-loaded="true" style="" resource="Whisky" prefix="wh:http://www.whisky.com/whisky#" vocab="http://www.schema.org/"
+    typeOf="WhiskySingleMalt">
 
     <div id="banners-top" class="banners">
         <div class="container-fluid">
@@ -417,8 +418,8 @@
                                             <div class="column-inner">
                                                 <div class="details_metadata">
                                                     <h1>
-                                                        <span class="flaschenIdentifier">
-                                                            <span class="marke"> Jameson </span>
+                                                        <span class="flaschenIdentifier" property="name">
+                                                            <span class="marke" property="wh:destilledBy"> Jameson </span>
                                                             <span class="alterEtikett"> </span>
                                                             <span class="brenndatum"> </span>
                                                             <span class="namenszusatz"> </span>
@@ -592,9 +593,7 @@
                                                                         <label>
                                                                             Whisky-ID:
                                                                         </label>
-                                                                        <span class="value">
-                                                                            2072
-                                                                        </span>
+                                                                        <span class="value" property="wh:whiskyID">2072</span>
                                                                     </td>
                                                                 </tr>
 
@@ -621,7 +620,7 @@
                                                                         <span class="value">
 
 
-                                                                            <a typeOf = "wh:Region" title="Ireland" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bland%5D=5">Ireland</a>
+                                                                            <a typeOf="wh:Region" title="Ireland" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bland%5D=5">Ireland</a>
 
 
 
@@ -662,9 +661,9 @@
                                                                         <label>
                                                                             ABV:
                                                                         </label>
-                                                                        
-                                                                            <span class="value" property="wh:ABV">40%</span>
-                                                                        
+
+                                                                        <span class="value" property="wh:ABV">40</span>%
+
                                                                     </td>
                                                                 </tr>
 
@@ -675,9 +674,7 @@
                                                                         <label>
                                                                             Bottle size:
                                                                         </label>
-                                                                        <span class="value">
-                                                                            0.7 l
-                                                                        </span>
+                                                                        <span class="value" property="wh:bottleSize">0.7 </span>l
                                                                     </td>
                                                                 </tr>
 
@@ -863,6 +860,7 @@
 
 
                                                                             <!-- Rating: 1.7857 -->
+                                                                            <span id="rating" property="wh:nosingVanilla">4.4643</span>
                                                                             <!-- Rating Global: 4.4643 -->
 
 
@@ -891,6 +889,7 @@
 
 
                                                                             <!-- Rating: 1.3095 -->
+                                                                            <span id="rating" property="wh:nosingSweet">5.0000</span>
                                                                             <!-- Rating Global: 5 -->
 
 
@@ -919,6 +918,7 @@
 
 
                                                                             <!-- Rating: 0.7143 -->
+                                                                            <span id="rating" property="wh:nosingSpices">1.5385</span>
                                                                             <!-- Rating Global: 1.5385 -->
 
 
@@ -947,6 +947,7 @@
 
 
                                                                             <!-- Rating: 0.5952 -->
+                                                                            <span id="rating" property="wh:nosingMalt">1.86</span>
                                                                             <!-- Rating Global: 1.86 -->
 
 
@@ -975,6 +976,7 @@
 
 
                                                                             <!-- Rating: 0.5952 -->
+                                                                            <span id="rating" property="wh:nosingOak">2.4179</span>
                                                                             <!-- Rating Global: 2.4179 -->
 
 
@@ -1003,6 +1005,7 @@
 
 
                                                                             <!-- Rating: 0.5952 -->
+                                                                            <span id="rating" property="wh:nosingAlcohol">4.4643</span>
                                                                             <!-- Rating Global: 2.48 -->
 
 
