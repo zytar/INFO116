@@ -14,6 +14,7 @@ WHERE{
 
 
 
+///Result:
 }
 
 {
@@ -29,6 +30,40 @@ WHERE{
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#TullamoreDEW" } ,
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Ireland" }
+      }
+    ]
+  }
+}
+
+
+
+///Find a whisky with a maturing of Sherry and a rating over 3.5. Also show the country:
+
+SELECT DISTINCT ?whisky ?country ?rating
+WHERE
+{
+ ?whisky w:rating ?rating .
+ ?whisky w:countryOfOrigin ?country .
+ ?whisky w:hasMaturing w:Sherry ;
+ FILTER(?rating > 3.5)
+}
+
+///Result:
+{
+  "head": {
+    "vars": [ "whisky" , "country" , "rating" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Bunnahabhain12Years" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" }
       }
     ]
   }

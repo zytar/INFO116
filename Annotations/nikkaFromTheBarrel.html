@@ -12,39 +12,40 @@
 -->
 
 <!-- JSON-LD -->
-<script type='application/ld+json'>
-{
-"@context": "http://schema.org/",
-"@type": "IndividualProduct",
-"name": "NikkaFromtheBarrel",
-"aggregateRating": {
-    	"@type": "AggregateRating",
-    	"ratingValue": "3.9",
-    	"ratingCount": "113"
- 	}
-}
-{
-"@context": "whisky.owl",
-"@type": "WhiskyBlend",
-"whiskyID": 1543,
-"distilledBy": "Miyagikyo",
-"countryOfOrigin": "Japan",
-"ABV": 51.4,
-"bottleSize": 0.5,
-"nosingFruit": 5,
-"nosingSpices": 3.5117,
-"nosingHoney": 5,
-"nosingOrange": 1.6389,
-"tastingSpices": 5,
-"tastingOak": 5,
-"tastingHoney": 5,
-"tastingFruit": 2.5561,
-"finishSpices": 5,
-"finishVanilla": 5,
-"finishOil": 2.1305,
-"finishOak": 4.7613
-}
-
+<script type="application/ld+json">
+[
+  {
+  "@context": "http://schema.org/",
+  "@type": "IndividualProduct",
+  "name": "NikkaFromtheBarrel",
+  "aggregateRating": {
+      	"@type": "AggregateRating",
+      	"ratingValue": "3.9",
+      	"ratingCount": "113"
+   	}
+  },
+  {
+  "@context": "whisky.owl",
+  "@type": "WhiskyBlend",
+  "whiskyID": 1543,
+  "distilledBy": "Miyagikyo",
+  "countryOfOrigin": "Japan",
+  "ABV": 51.4,
+  "bottleSize": 0.5,
+  "nosingFruit": 5,
+  "nosingSpices": 3.5117,
+  "nosingHoney": 5,
+  "nosingOrange": 1.6389,
+  "tastingSpices": 5,
+  "tastingOak": 5,
+  "tastingHoney": 5,
+  "tastingFruit": 2.5561,
+  "finishSpices": 5,
+  "finishVanilla": 5,
+  "finishOil": 2.1305,
+  "finishOak": 4.7613
+  }
+]
 </script>
 
 
@@ -88,7 +89,7 @@
 
 		<meta name="description" content="You're a malthead and would never even dream of touching a blend? Try Nikka from the Barrel, it might just change your mind." />
 
-<!--
+
 
 				<meta property="og:title" content="Nikka From the Barrel" />
 				<meta property="og:description" content="You're a malthead and would never even dream of touching a blend? Try Nikka from the Barrel, it might just change your mind." />
@@ -105,7 +106,7 @@
 
 
 
--->
+
 
 
 						<link rel="canonical" href="https://www.whisky.com/whisky-database/details/nikka-from-the-barrel.html" />
@@ -365,7 +366,7 @@
 									<!--Rating:-->
 
 
-<span resource="Whisky"><span property="wh:hasRating" resource="WhiskyRating"><a resource="WhiskyRating" href="#geschmacksbeschreibungen_anchor" title=""></span></span>
+<a href="#geschmacksbeschreibungen_anchor" title="">
 
 					<div class="rating value-title" style="" title="Rating">
 						<div class="rating-inner">
@@ -373,7 +374,7 @@
 							<div class="items active" style="width: 78%; "></div>
 						</div>
 					</div>
-				<span property="aggregateRating">
+				<span typeOf="aggregateRating">
 					<span property="ratingValue">3.9</span>
 					(<span property="reviewCount">113</span>)
 				</span>
