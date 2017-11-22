@@ -78,6 +78,12 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#hasRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.whisky.com/whisky#hasRating"/>
+    
+
+
     <!-- http://www.whisky.com/whisky#regionOfOrigin -->
 
     <owl:ObjectProperty rdf:about="http://www.whisky.com/whisky#regionOfOrigin">
@@ -875,6 +881,14 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#Rating -->
+
+    <owl:Class rdf:about="http://www.whisky.com/whisky#Rating">
+        <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#ValuePartition"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.whisky.com/whisky#Region -->
 
     <owl:Class rdf:about="http://www.whisky.com/whisky#Region">
@@ -1315,6 +1329,15 @@
     
 
 
+    <!-- http://www.whisky.com/whisky#Rating -->
+
+    <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Rating">
+        <rdf:type rdf:resource="http://www.whisky.com/whisky#Rating"/>
+        <rating></rating>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.whisky.com/whisky#Scotland -->
 
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Scotland">
@@ -1405,6 +1428,9 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Wales">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
+    <rdf:Description>
+        <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.0</rating>
+    </rdf:Description>
     
 
 

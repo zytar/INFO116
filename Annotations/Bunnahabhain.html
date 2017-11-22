@@ -11,6 +11,45 @@
 	Information and contribution at http://typo3.org/
 -->
 
+<!-- JSON-LD -->
+<script type='application/ld+json'>
+{
+"@context": "http://schema.org/",
+"@type": "IndividualProduct",
+"name": "Bunnahabhain12Years",
+"aggregateRating": {
+    	"@type": "AggregateRating",
+    	"ratingValue": "3.9",
+    	"ratingCount": "379"
+ 	}
+}
+{
+"@context": "whisky.owl",
+"@type": "WhiskySingleMalt",
+"whiskyID": 2518,
+"distilledBy": "Bunnahabhain",
+"countryOfOrigin": "Scotland",
+"regionOfOrigin": "Islay",
+"age": 12,
+"ABV": 46.3,
+"bottleSize": 0.7,
+"hasFinish": ["Sherry"],
+"hasMaturing": ["Bourbon"],
+"nosingPeatSmoke": 3.0944,
+"nosingFruit": 5.0000,
+"nosingSherry" : 3.2144,
+"nosingMalt": 2.2322,
+"tastingMalt": 3.3234,
+"tastingPeatSmoke": 2.4934,
+"tastingSpices": 3.6666,
+"tastingFruit": 3.4994,
+"finishMalt": 5.0000,
+"finishPeatSmoke:": 2.4584,
+"finishSweet": 5.0000,
+"finishOak": 4.3452,
+}
+
+</script>
 
 <link rel="shortcut icon" href="/fileadmin/Resources/Public/Icons/favicon.ico" type="image/x-icon; charset=binary">
 <link rel="icon" href="/fileadmin/Resources/Public/Icons/favicon.ico" type="image/x-icon; charset=binary">
@@ -52,7 +91,7 @@
 
 		<meta name="description" content="" />
 
-
+<!--
 
 				<meta property="og:title" content="Bunnahabhain 12 Years" />
 				<meta property="og:description" content="" />
@@ -74,7 +113,7 @@
 
 						<link rel="canonical" href="https://www.whisky.com/whisky-database/details/bunnahabhain-2.html" />
 
-
+-->
 
 </head>
 <body class="layout-6" resource="Whisky" prefix="wh:http://www.whisky.com/whisky#" vocab="http://www.schema.org/" typeOf="WhiskySingleMalt">
@@ -483,7 +522,7 @@
 									Distillery:
 								</label>
 								<span class="value">
-										<a resoure="Bunnahabhain" property="wh:distilledBy" href="/whisky-database/distilleries/details/bunnahabhain.html">Bunnahabhain</a>
+										<a property="wh:distilledBy" title="Bunnahabhain" resoure="Bunnahabhain" href="/whisky-database/distilleries/details/bunnahabhain.html">Bunnahabhain</a>
 								</span>
 							</td>
 						</tr>
@@ -3317,7 +3356,7 @@
 
 										</div>
 
-									<span id="rating" property="wh:finishPeatSmoke">4584</span>
+									<span id="rating" property="wh:finishPeatSmoke">2.4584</span>
 									<!-- Rating: 0.9127 -->
 									<!-- Rating Global: 2.4584 -->
 
