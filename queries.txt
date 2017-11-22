@@ -113,9 +113,6 @@ ORDER BY DESC(?rating)
   "results": {
     "bindings": [
       {
-        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Balvenie12YearsDoubleWood" } ,
-        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
-        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "619" }
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" } ,
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
@@ -129,12 +126,6 @@ ORDER BY DESC(?rating)
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Bunnahabhain12Years" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
-        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "375" }
-      } ,
-      {
-        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
-        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" } ,
-        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "841" }
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
         "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Islay" }
       } ,
@@ -147,13 +138,6 @@ ORDER BY DESC(?rating)
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#MakersMarkRedSeal" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.2" } ,
-
-        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "228" }
-      }
-    ]
-  }
-}
-
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#USA" } ,
         "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Kentucky" }
       } ,
