@@ -15,6 +15,7 @@ WHERE{
 
 
 ///Result:
+
 }
 
 {
@@ -49,6 +50,7 @@ WHERE
 }
 
 ///Result:
+
 {
   "head": {
     "vars": [ "whisky" , "country" , "rating" ]
@@ -69,6 +71,21 @@ WHERE
   }
 }
 
+///Find whiskies with over 200 ratings
+
+SELECT ?whisky ?rating ?ratings
+WHERE
+{
+	?whisky w:rating ?rating .
+	?whisky w:ratingCount ?ratings;
+	FILTER(?ratings>200)
+}
+
+///Result:
+
+{
+  "head": {
+    "vars": [ "whisky" , "rating" , "ratings" ]
 
 
 
@@ -87,7 +104,7 @@ Where {
 ORDER BY DESC(?rating)
 
 
-
+// RESULT: 
 
 {
   "head": {
@@ -96,6 +113,9 @@ ORDER BY DESC(?rating)
   "results": {
     "bindings": [
       {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Balvenie12YearsDoubleWood" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "619" }
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" } ,
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
@@ -109,6 +129,12 @@ ORDER BY DESC(?rating)
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Bunnahabhain12Years" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "375" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" } ,
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "841" }
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
         "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Islay" }
       } ,
@@ -121,6 +147,13 @@ ORDER BY DESC(?rating)
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#MakersMarkRedSeal" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.2" } ,
+
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "228" }
+      }
+    ]
+  }
+}
+
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#USA" } ,
         "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Kentucky" }
       } ,
@@ -147,6 +180,7 @@ ORDER BY DESC(?rating)
 
 
 
+
 // finds whiskies, abv, countries where ABV is over 43 percent and the whisky was not made in Scotland.
 
 SELECT     ?whisky ?abv ?country
@@ -157,4 +191,27 @@ WHERE {
     MINUS {
     ?whisky w:countryOfOrigin w:Scotland.
     }
+}
+
+
+RESULT: 
+
+{
+  "head": {
+    "vars": [ "whisky" , "abv" , "country" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#MakersMarkRedSeal" } ,
+        "abv": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "45.0" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#USA" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#NikkaFromtheBarrel" } ,
+        "abv": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "51.4" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Japan" }
+      }
+    ]
+  }
 }
