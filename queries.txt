@@ -15,6 +15,7 @@ WHERE{
 
 
 ///Result:
+
 }
 
 {
@@ -49,6 +50,7 @@ WHERE
 }
 
 ///Result:
+
 {
   "head": {
     "vars": [ "whisky" , "country" , "rating" ]
@@ -64,6 +66,48 @@ WHERE
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
         "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" }
+      }
+    ]
+  }
+}
+
+///Find whiskies with over 200 ratings
+
+SELECT ?whisky ?rating ?ratings
+WHERE
+{
+	?whisky w:rating ?rating .
+	?whisky w:ratingCount ?ratings;
+	FILTER(?ratings>200)
+}
+
+///Result:
+
+{
+  "head": {
+    "vars": [ "whisky" , "rating" , "ratings" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Balvenie12YearsDoubleWood" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "619" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Bunnahabhain12Years" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "375" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" } ,
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "841" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#MakersMarkRedSeal" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.2" } ,
+        "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "228" }
       }
     ]
   }
