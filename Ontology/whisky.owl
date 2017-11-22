@@ -11,10 +11,10 @@
         <rdfs:label>whisky</rdfs:label>
         <rdfs:comment>A ontology for describing different whiskies.</rdfs:comment>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -22,16 +22,16 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.whisky.com/whisky#URL -->
 
     <owl:AnnotationProperty rdf:about="http://www.whisky.com/whisky#URL"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -39,7 +39,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.whisky.com/whisky#countryOfOrigin -->
@@ -48,7 +48,7 @@
         <rdfs:domain rdf:resource="http://www.whisky.com/whisky#Whisky"/>
         <rdfs:range rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#distilledBy -->
@@ -57,7 +57,7 @@
         <rdfs:domain rdf:resource="http://www.whisky.com/whisky#Whisky"/>
         <rdfs:range rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#hasFinish -->
@@ -66,7 +66,7 @@
         <rdfs:domain rdf:resource="http://www.whisky.com/whisky#Whisky"/>
         <rdfs:range rdf:resource="http://www.whisky.com/whisky#Finishing"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#hasMaturing -->
@@ -75,7 +75,7 @@
         <rdfs:domain rdf:resource="http://www.whisky.com/whisky#Whisky"/>
         <rdfs:range rdf:resource="http://www.whisky.com/whisky#Maturing"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#regionOfOrigin -->
@@ -84,10 +84,10 @@
         <rdfs:domain rdf:resource="http://www.whisky.com/whisky#Whisky"/>
         <rdfs:range rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:ObjectProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -95,7 +95,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.whisky.com/whisky#ABV -->
@@ -104,7 +104,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:comment>Percentage of alcohol</rdfs:comment>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#age -->
@@ -113,7 +113,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#bottleSize -->
@@ -124,7 +124,7 @@
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>In dl.</rdfs:comment>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finish -->
@@ -132,7 +132,7 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finish">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tastingNotes"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishAlcohol -->
@@ -141,7 +141,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishBanana -->
@@ -150,7 +150,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishBlackberry -->
@@ -159,7 +159,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishChili -->
@@ -168,7 +168,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishCoffee -->
@@ -177,7 +177,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishDriedfruit -->
@@ -186,7 +186,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishFruit -->
@@ -195,7 +195,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishGInger -->
@@ -204,7 +204,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishLime -->
@@ -212,7 +212,7 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#finishLime">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishMalt -->
@@ -221,7 +221,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishOak -->
@@ -230,7 +230,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishOil -->
@@ -239,7 +239,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishPeatSmoke -->
@@ -248,7 +248,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishPepper -->
@@ -257,7 +257,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishSherry -->
@@ -266,7 +266,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishSpices -->
@@ -275,7 +275,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishSweet -->
@@ -284,7 +284,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#finishVanilla -->
@@ -293,7 +293,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#finish"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosing -->
@@ -301,7 +301,7 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosing">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tastingNotes"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingAlcohol -->
@@ -310,7 +310,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingApple -->
@@ -319,7 +319,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingBerries -->
@@ -328,7 +328,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingCaramel -->
@@ -337,7 +337,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingChocolate -->
@@ -346,7 +346,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingCinnamon -->
@@ -355,7 +355,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingCoconut -->
@@ -364,7 +364,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingFruit -->
@@ -373,7 +373,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingGrape -->
@@ -382,7 +382,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingGrapefruit -->
@@ -390,7 +390,7 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#nosingGrapefruit">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingGrass -->
@@ -399,7 +399,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingGreenapple -->
@@ -408,7 +408,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingHoney -->
@@ -417,7 +417,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingIodine -->
@@ -426,7 +426,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingLemon -->
@@ -435,7 +435,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingLime -->
@@ -444,7 +444,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingMalt -->
@@ -453,7 +453,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingOak -->
@@ -462,7 +462,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingOil -->
@@ -471,7 +471,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingOrange -->
@@ -480,7 +480,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingPeach -->
@@ -489,7 +489,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingPear -->
@@ -498,7 +498,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingPeatSmoke -->
@@ -507,7 +507,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingPineapple -->
@@ -516,7 +516,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingSeaweed -->
@@ -525,7 +525,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingSherry -->
@@ -534,7 +534,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingSpices -->
@@ -543,7 +543,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingSweet -->
@@ -552,7 +552,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#nosingVanilla -->
@@ -561,7 +561,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#nosing"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#rating -->
@@ -570,7 +570,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:comment>Range from 1-5</rdfs:comment>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#ratingCount -->
@@ -578,7 +578,7 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#ratingCount">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#rating"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tasting -->
@@ -586,7 +586,7 @@
     <owl:DatatypeProperty rdf:about="http://www.whisky.com/whisky#tasting">
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tastingNotes"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingAlcohol -->
@@ -595,7 +595,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingApple -->
@@ -604,7 +604,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingBanana -->
@@ -613,7 +613,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingBarley -->
@@ -622,7 +622,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingChili -->
@@ -631,7 +631,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingCoffee -->
@@ -640,7 +640,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingDriedfruit -->
@@ -649,7 +649,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingFloral -->
@@ -658,7 +658,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingFruit -->
@@ -667,7 +667,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingGinger -->
@@ -676,7 +676,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingGreenapple -->
@@ -685,7 +685,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingHoney -->
@@ -694,7 +694,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingLemon -->
@@ -703,7 +703,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingLime -->
@@ -712,7 +712,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingMalt -->
@@ -721,7 +721,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingNotes -->
@@ -730,7 +730,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:comment>From 1-5. Shows the different aromas that dominate the whisky.</rdfs:comment>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingNuts -->
@@ -739,7 +739,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingOak -->
@@ -748,7 +748,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingOil -->
@@ -757,7 +757,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingPeatSmoke -->
@@ -766,7 +766,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingPepper -->
@@ -775,7 +775,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingSalt -->
@@ -784,7 +784,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingSherry -->
@@ -793,7 +793,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingSpices -->
@@ -802,7 +802,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingSweet -->
@@ -811,7 +811,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#tastingVanilla -->
@@ -820,7 +820,7 @@
         <rdfs:subPropertyOf rdf:resource="http://www.whisky.com/whisky#tasting"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#whiskyID -->
@@ -829,10 +829,10 @@
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
     </owl:DatatypeProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -840,13 +840,13 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Country -->
 
     <owl:Class rdf:about="http://www.whisky.com/whisky#Country"/>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Distillery -->
@@ -854,7 +854,7 @@
     <owl:Class rdf:about="http://www.whisky.com/whisky#Distillery">
         <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#ValuePartition"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Finishing -->
@@ -863,7 +863,7 @@
         <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#ValuePartition"/>
         <rdfs:comment>Describes the type of predecessor liquid used in the second cask of maturation</rdfs:comment>
     </owl:Class>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Maturing -->
@@ -872,7 +872,7 @@
         <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#ValuePartition"/>
         <rdfs:comment>Describes the type of predecessor liquid used in the cask for maturation</rdfs:comment>
     </owl:Class>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Region -->
@@ -880,19 +880,19 @@
     <owl:Class rdf:about="http://www.whisky.com/whisky#Region">
         <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#ValuePartition -->
 
     <owl:Class rdf:about="http://www.whisky.com/whisky#ValuePartition"/>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Whisky -->
 
     <owl:Class rdf:about="http://www.whisky.com/whisky#Whisky"/>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#WhiskyBlend -->
@@ -903,7 +903,7 @@
         <owl:disjointWith rdf:resource="http://www.whisky.com/whisky#WhiskySingleMalt"/>
         <owl:disjointWith rdf:resource="http://www.whisky.com/whisky#WhiskyTennessee"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#WhiskyBourbon -->
@@ -913,7 +913,7 @@
         <owl:disjointWith rdf:resource="http://www.whisky.com/whisky#WhiskySingleMalt"/>
         <owl:disjointWith rdf:resource="http://www.whisky.com/whisky#WhiskyTennessee"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#WhiskySingleMalt -->
@@ -922,7 +922,7 @@
         <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#Whisky"/>
         <owl:disjointWith rdf:resource="http://www.whisky.com/whisky#WhiskyTennessee"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#WhiskyTennessee -->
@@ -930,10 +930,10 @@
     <owl:Class rdf:about="http://www.whisky.com/whisky#WhiskyTennessee">
         <rdfs:subClassOf rdf:resource="http://www.whisky.com/whisky#Whisky"/>
     </owl:Class>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -941,7 +941,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Ardbeg -->
@@ -949,7 +949,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Ardbeg">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Balvenie -->
@@ -957,7 +957,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Balvenie">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Balvenie12YearsDoubleWood -->
@@ -989,7 +989,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">566</whiskyID>
         <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.whisky.com/whisky-database/details/balvenie-double-wood.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Bourbon -->
@@ -997,7 +997,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Bourbon">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Maturing"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Bunnahabhain -->
@@ -1005,7 +1005,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Bunnahabhain">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Bunnahabhain12Years -->
@@ -1037,7 +1037,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2518</whiskyID>
         <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.whisky.com/whisky-database/details/bunnahabhain-2.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Dalwhinnie -->
@@ -1045,7 +1045,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Dalwhinnie">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Glenmorangie -->
@@ -1053,7 +1053,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Glenmorangie">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#HighlandPark -->
@@ -1061,7 +1061,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#HighlandPark">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Highlands -->
@@ -1069,7 +1069,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Highlands">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Ireland -->
@@ -1077,7 +1077,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Ireland">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Islands -->
@@ -1085,7 +1085,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Islands">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Islay -->
@@ -1093,7 +1093,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Islay">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#JackDaniels -->
@@ -1101,7 +1101,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#JackDaniels">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#JackDanielsNO7 -->
@@ -1130,7 +1130,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5062</whiskyID>
         <URL>https://www.whisky.com/whisky-database/details/jack-daniels-old-no-7-black-label.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Jameson -->
@@ -1158,7 +1158,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2072</whiskyID>
         <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.whisky.com/whisky-database/details/jameson-4.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Japan -->
@@ -1166,7 +1166,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Japan">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Kentucky -->
@@ -1174,7 +1174,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Kentucky">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Lagavulin -->
@@ -1182,7 +1182,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Lagavulin">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Lagavulin16Years -->
@@ -1214,7 +1214,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</whiskyID>
         <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.whisky.com/whisky-database/details/lagavulin.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Laphroaig -->
@@ -1222,7 +1222,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Laphroaig">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#MakersMark -->
@@ -1230,7 +1230,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#MakersMark">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#MakersMarkRedSeal -->
@@ -1260,7 +1260,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1511</whiskyID>
         <URL>https://www.whisky.com/whisky-database/details/makers-mark-red-seal.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Midleton -->
@@ -1268,7 +1268,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Midleton">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#MiyagikyoNikka -->
@@ -1276,7 +1276,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#MiyagikyoNikka">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#NewOakCask -->
@@ -1284,7 +1284,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#NewOakCask">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Maturing"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#NikkaFromtheBarrel -->
@@ -1312,7 +1312,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1543</whiskyID>
         <URL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.whisky.com/whisky-database/details/nikka-from-the-barrel.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Scotland -->
@@ -1320,7 +1320,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Scotland">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Sherry -->
@@ -1329,7 +1329,7 @@
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Finishing"/>
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Maturing"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Speyside -->
@@ -1337,7 +1337,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Speyside">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Talisker -->
@@ -1345,7 +1345,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Talisker">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Distillery"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Tennessee -->
@@ -1353,7 +1353,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Tennessee">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Region"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#TullamoreDEW -->
@@ -1381,7 +1381,7 @@
         <whiskyID rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7186</whiskyID>
         <URL>https://www.whisky.com/whisky-database/details/tullamore-dew-5.html</URL>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#USA -->
@@ -1389,7 +1389,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#USA">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Virgin -->
@@ -1397,7 +1397,7 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Virgin">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Maturing"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.whisky.com/whisky#Wales -->
@@ -1405,10 +1405,10 @@
     <owl:NamedIndividual rdf:about="http://www.whisky.com/whisky#Wales">
         <rdf:type rdf:resource="http://www.whisky.com/whisky#Country"/>
     </owl:NamedIndividual>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // General axioms
@@ -1430,3 +1430,4 @@
 
 
 <!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
