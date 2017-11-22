@@ -10,9 +10,7 @@
 	Information and contribution at http://typo3.org/
 -->
 
-<!-- JSON-LD
-Kan muligens forenkles
--->
+
 <!-- JSON-LD -->
 <script type='application/ld+json'>
 {
@@ -25,6 +23,7 @@ Kan muligens forenkles
     	"ratingCount": "845"
  	}
 }
+
 {
 "@context": "whisky.owl",
 "@type": "WhiskySingleMalt",
@@ -45,8 +44,7 @@ Kan muligens forenkles
 "finishOak": "2.0",
 "bottleSize": "0.7",
 "finishPeatSmoke": "5.0",
-"nosingSeaweed" : "2.5",
-"tastingSalt"
+"nosingSeaweed" : "2.5"
 }
 
 </script>
@@ -534,7 +532,7 @@ Kan muligens forenkles
 									Distillery:
 								</label>
 								<span class="value">
-										<a href="/whisky-database/distilleries/details/lagavulin.html">Lagavulin</a>
+										<a href="/whisky-database/distilleries/details/lagavulin.html" property="wh:distilledBy">Lagavulin</a>
 								</span>
 							</td>
 						</tr>
@@ -549,12 +547,12 @@ Kan muligens forenkles
 						<span class="value">
 
 
-									<a title="Scotland" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bland%5D=6">Scotland</a>,
+									<a property="wh:countryOfOrigin" title="Scotland" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bland%5D=6">Scotland</a>,
 
 
 
 
-									<a title="Islay" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bregion%5D=5">Islay</a>
+									<a property="wh:regionOfOrigin" title="Islay" href="/whisky-database/distilleries.html?tx_datamintsflaschendb_pi4%5BsearchCriteria%5D%5Bregion%5D=5">Islay</a>
 
 
 						</span>
