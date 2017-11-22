@@ -71,6 +71,7 @@ WHERE
   }
 }
 
+<<<<<<< HEAD
 ///Find whiskies with over 200 ratings
 
 SELECT ?whisky ?rating ?ratings
@@ -86,29 +87,102 @@ WHERE
 {
   "head": {
     "vars": [ "whisky" , "rating" , "ratings" ]
+=======
+
+
+
+
+// Finds all whiskies, their ratings, countries and if they have a region, it returns that as well. And then orders the output by rating in a descending order.
+
+
+
+SELECT ?whisky ?rating ?country ?region
+
+Where {
+  ?whisky w:countryOfOrigin ?country .
+       ?whisky w:rating ?rating .
+  OPTIONAL{?whisky w:regionOfOrigin ?region}
+}
+ORDER BY DESC(?rating)
+
+
+
+
+{
+  "head": {
+    "vars": [ "whisky" , "rating" , "country" , "region" ]
+>>>>>>> 73bc587dc197589f9463dfa63dd19f4289f52c2a
   } ,
   "results": {
     "bindings": [
       {
+<<<<<<< HEAD
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Balvenie12YearsDoubleWood" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
         "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "619" }
+=======
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
+        "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Islay" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#NikkaFromtheBarrel" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Japan" }
+>>>>>>> 73bc587dc197589f9463dfa63dd19f4289f52c2a
       } ,
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Bunnahabhain12Years" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
+<<<<<<< HEAD
         "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "375" }
       } ,
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Lagavulin16Years" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "4.5" } ,
         "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "841" }
+=======
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
+        "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Islay" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Balvenie12YearsDoubleWood" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.9" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Scotland" } ,
+        "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Speyside" }
+>>>>>>> 73bc587dc197589f9463dfa63dd19f4289f52c2a
       } ,
       {
         "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#MakersMarkRedSeal" } ,
         "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "3.2" } ,
+<<<<<<< HEAD
         "ratings": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#int" , "value": "228" }
       }
     ]
   }
 }
+=======
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#USA" } ,
+        "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Kentucky" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#Jameson" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.5" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Ireland" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#TullamoreDEW" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.4" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#Ireland" }
+      } ,
+      {
+        "whisky": { "type": "uri" , "value": "http://www.whisky.com/whisky#JackDanielsNO7" } ,
+        "rating": { "type": "literal" , "datatype": "http://www.w3.org/2001/XMLSchema#float" , "value": "2.4" } ,
+        "country": { "type": "uri" , "value": "http://www.whisky.com/whisky#USA" } ,
+        "region": { "type": "uri" , "value": "http://www.whisky.com/whisky#Tennessee" }
+      }
+    ]
+  }
+}
+>>>>>>> 73bc587dc197589f9463dfa63dd19f4289f52c2a
